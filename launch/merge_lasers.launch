@@ -1,0 +1,6 @@
+<launch>
+	<!-- Merge Lasers Node -->
+	<node pkg="merge_lasers" type="merge_lasers_node" name="merge_lasers_node" />
+	<node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="-0.05 0 0.17 0 0 0 base_link laser 100" />
+
+</launch>

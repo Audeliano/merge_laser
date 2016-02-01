@@ -1,0 +1,8 @@
+prefix=/home/au/catkin_ws/install
+
+Name: invert_laser
+Description: Description of invert_laser
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/au/catkin_ws/install/lib 
+Requires: 
